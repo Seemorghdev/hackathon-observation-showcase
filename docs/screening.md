@@ -1,6 +1,6 @@
 # Screening and provenance
 
-Prepared on 22 October 2026 as a private documentation-only repository.
+Prepared on 22 October 2026 as a private documentation-only review, then approved by the owner for public documentary use. The original review commit remains historical provenance, not the current access status.
 
 ## Included sources
 
@@ -12,7 +12,7 @@ The original operational source, full HTML presentation, raw historical test fil
 
 ## Excluded information
 
-Credentials, local filesystem coordinates, private research/register links, precise locations, scenario geometry, operational algorithms and parameters, datasets and model weights are outside this package. The private repository is not a data room for the original application.
+Credentials, local filesystem coordinates, private research/register links, precise locations, scenario geometry, operational algorithms and parameters, datasets and model weights are outside this package. This repository is not a data room for the original application.
 
 ## Visual interpretation
 
@@ -22,4 +22,4 @@ Screenshots record the actual static material rendered locally. They are not moc
 
 `SHA256SUMS.txt` lists every included file except itself and Git metadata. `scripts/check_showcase.py` checks that exact inventory, local Markdown links, required disclosure statements and excluded file categories. This is a documentation check, not validation of the historical prototype.
 
-Public availability is not enabled by preparation or a successful documentation check. No hosting workflow, public export or application deployment is included.
+The owner explicitly approved public availability of this screened documentary material after review. Earlier screenshot labels referring to private review describe the capture context at that time; they do not turn the images into application-runtime evidence. No hosting workflow or application deployment is included.

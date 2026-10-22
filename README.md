@@ -1,6 +1,6 @@
 # A common view for mismatched observations
 
-**Private review · solo hackathon · documentation-only showcase**
+**Solo hackathon · documentation-only showcase · not application source**
 
 This prototype explored representing observations together when formats, units, timestamps and identifiers do not agree. The original challenge concerned heterogeneous observations in an air-defence setting. This repository provides a non-operational account of the existing work; it does not distribute the underlying application.
 
@@ -35,8 +35,8 @@ The image above captures the included excerpt, not the original application. [De
 
 ## Status
 
-Prepared for private review on 22 October 2026. No public redistribution, website publication, deployment or operational experiment was performed. The original local application checkout remains separate and unchanged.
+Prepared and screened on 22 October 2026. The owner approved making this documentation repository public. The original application source remains private and unchanged; no operational experiment or application deployment was performed.
 
-The companion portfolio preview runs locally. Loopback addresses are not shareable demo endpoints. The private repository link should not be published as a recruiter-accessible source link.
+The [companion portfolio account](https://mehridian.tech/projects/common-observation-view) and [technical reference](https://mehridian.tech/projects/common-observation-reference) explain the same evidence and access limits. This repository is an inspectable documentation destination, not a working application demo.
 
 See [screening and provenance](docs/screening.md) for scope and [SHA256SUMS.txt](SHA256SUMS.txt) for byte integrity. Checksums establish file identity, not correctness of historical claims.

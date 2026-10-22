@@ -1,6 +1,6 @@
 # What can actually be opened
 
-## Available in this private repository
+## Available in this public documentation repository
 
 1. Read the project account and technical references in GitHub.
 2. Download and open `assets/presentation-excerpt.html` locally. It is a static page with no external resources or application scripts.
@@ -9,12 +9,12 @@
 
 No package installation is needed to read these files. GitHub's file viewer may display HTML source rather than render it.
 
-## Available separately on the owner's Mac
+## Companion portfolio
 
-The portfolio contains a companion project overview and technical reference in a loopback-only preview. Those addresses are local review aids, not remotely accessible services. The source application checkout remains separate and has not been modified or assigned this showcase repository's remote.
+The [portfolio project account](https://mehridian.tech/projects/common-observation-view) and [technical reference](https://mehridian.tech/projects/common-observation-reference) provide another reading path. The source application remains private and has not been modified or assigned this showcase repository's remote.
 
 ## Not available as a release
 
 The operational application, full original presentation, private test receipts, raw data, sensor geometry and deployment configuration are not distributed here. There is no public application-source URL, live demo, application-runtime screenshot or model API in this package.
 
-The existence of this documentation repository must not be described as publishing the application source. Any future public documentation release needs its own content/media review. No automatic hosting or deployment workflow is included.
+The existence of this documentation repository must not be described as publishing the application source. The owner approved the screened documentation and visuals for public use; that approval does not release excluded application code or datasets. No automatic hosting or deployment workflow is included.
