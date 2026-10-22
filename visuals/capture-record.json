@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-22",
+  "scope": "Static documentation only; no original application runtime",
+  "dimensions": "Observed CSS viewport dimensions; image pixel dimensions may differ due to browser scaling",
+  "captures": [
+    {"file":"portfolio-documentation-desktop.png","subject":"local portfolio documentation, not runtime UI","width":1422,"height":1573,"horizontalOverflow":false},
+    {"file":"presentation-excerpt-desktop.png","subject":"screened static editorial wrapper, not application UI","width":1910,"height":1075,"horizontalOverflow":false},
+    {"file":"presentation-excerpt-mobile.png","subject":"screened static editorial wrapper, not application UI","width":389,"height":843,"horizontalOverflow":false}
+  ]
+}
