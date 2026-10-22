@@ -5,6 +5,7 @@
   "captures": [
     {"file":"portfolio-documentation-desktop.png","subject":"local portfolio documentation, not runtime UI","width":1422,"height":1573,"horizontalOverflow":false},
     {"file":"presentation-excerpt-desktop.png","subject":"screened static editorial wrapper, not application UI","width":1910,"height":1075,"horizontalOverflow":false},
-    {"file":"presentation-excerpt-mobile.png","subject":"screened static editorial wrapper, not application UI","width":389,"height":843,"horizontalOverflow":false}
+    {"file":"presentation-excerpt-mobile.png","subject":"screened static editorial wrapper, not application UI","width":389,"height":843,"horizontalOverflow":false},
+    {"file":"operator-console-static-desktop.png","subject":"sanitized source-shell rendering of the later console, not a working application or original hackathon screen","width":1910,"height":1075,"applicationScripts":0,"externalResourceElements":0,"allControlsDisabled":true,"fixturesLoaded":false,"servicesStarted":false,"transformations":["application script removed","controls disabled","LIVE and engine-frame status relabeled","disclosure banner and explanatory watermark added"],"mobileAcceptance":"not performed"}
   ]
 }

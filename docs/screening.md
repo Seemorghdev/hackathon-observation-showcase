@@ -7,6 +7,7 @@ Prepared on 22 October 2026 as a private documentation-only review, then approve
 - Existing non-operational portfolio overview and technical reference, adapted to repository-relative Markdown links.
 - Existing screened presentation-text wrapper, copied byte-for-byte. It already labels itself as a new editorial wrapper rather than the original layout or runtime UI.
 - Fresh screenshots of that excerpt and of the local documentation page, captured after the repository status was updated.
+- A later documentary addition: a browser capture of the existing follow-on console's sanitized source shell, with scripts removed, controls disabled, LIVE/frame labels replaced, and an explicit disclosure banner/watermark. No fixtures or service data were loaded. See the interface review for the transformations and evidence limits.
 
 The original operational source, full HTML presentation, raw historical test files, media archives and model files were not copied. No new model, worker, sensor or application experiment was run.
 
@@ -17,6 +18,8 @@ Credentials, local filesystem coordinates, private research/register links, prec
 ## Visual interpretation
 
 Screenshots record the actual static material rendered locally. They are not mockups, reconstructed consoles, or proof that the original application executed. Browser viewport sizes are documented alongside the images. Original screen captures are kept as image files; no inference overlays were manufactured.
+
+The later console image is a modified-for-disclosure source-shell rendering, not an unmodified historical screen or a demonstration that the app worked. Its empty panes must remain visible and its disclosure banner must not be cropped away. The console HTML/CSS, application scripts and fixtures are not part of this public package.
 
 ## Integrity and validation
 

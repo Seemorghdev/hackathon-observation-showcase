@@ -6,6 +6,7 @@
 2. Download and open `assets/presentation-excerpt.html` locally. It is a static page with no external resources or application scripts.
 3. Inspect the screenshots in `visuals/`. Each is identified as documentation, not original application UI.
 4. Verify package integrity using the included SHA-256 file list.
+5. Inspect a [screened static capture of the later console layout](interface-review.md). Its controls are disabled and no runtime data is loaded; it is not the original hackathon screen or an application demo.
 
 No package installation is needed to read these files. GitHub's file viewer may display HTML source rather than render it.
 

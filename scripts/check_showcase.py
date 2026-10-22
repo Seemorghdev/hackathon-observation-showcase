@@ -1,6 +1,7 @@
 """Offline documentation-package checks; does not execute the application."""
 from pathlib import Path
 import hashlib
+import json
 import re
 import sys
 
@@ -34,4 +35,14 @@ assert "documentation-only" in readme and "not an installable application" in re
 html = (root / "assets/presentation-excerpt.html").read_text()
 assert "NOT A RUNTIME SCREENSHOT" in html
 assert not re.search(r"<script|(?:src|href)=[\"']https?://", html, re.I)
+review = (root / "docs/interface-review.md").read_text()
+assert "not a working application capture" in review
+assert "Blank panes are intentional" in review
+assert "LIVE label was replaced with STATIC" in review
+assert "separately documented synthetic scenario" in review
+capture = json.loads((root / "visuals/capture-record.json").read_text())
+shell = next(c for c in capture["captures"] if c["file"] == "operator-console-static-desktop.png")
+assert shell["applicationScripts"] == 0 and shell["externalResourceElements"] == 0
+assert shell["allControlsDisabled"] and not shell["fixturesLoaded"] and not shell["servicesStarted"]
+assert (root / "visuals/operator-console-static-desktop.png").exists()
 print(f"PASS: {len(entries)} package files; checksums, links and documentation boundaries")

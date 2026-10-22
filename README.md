@@ -12,6 +12,7 @@ The owner confirms that the prototype and showcase were solo work. A later synth
 - [Technical artifact inventory](docs/artifacts.md)
 - [Historical testing and limitations](docs/evaluation.md)
 - [What is actually available](docs/availability.md)
+- [Existing interface review: later console, static capture only](docs/interface-review.md)
 - [Screened presentation excerpt](assets/presentation-excerpt.html)
 - [Genuine documentation screenshots](visuals/README.md)
 
@@ -32,6 +33,15 @@ This is not an installable application. There is no application run command, hos
 ![Screened presentation-text excerpt rendered in a browser; static editorial wrapper, not application runtime](visuals/presentation-excerpt-desktop.png)
 
 The image above captures the included excerpt, not the original application. [Desktop portfolio documentation](visuals/portfolio-documentation-desktop.png) and [narrow-screen excerpt](visuals/presentation-excerpt-mobile.png) are also available, with their capture dimensions and labels in [the visual inventory](visuals/README.md).
+
+<details>
+<summary>Inspect the later console layout — scripts disabled, not a working demo</summary>
+
+![Sanitized rendering of the later console's retained source shell, with no runtime data loaded](visuals/operator-console-static-desktop.png)
+
+This separate follow-on interface is not the original hackathon presentation. Its scripts, fixtures and services were disabled for this capture; status wording was relabeled and a disclosure banner added. Blank panes are intentional. Read the [interface review](docs/interface-review.md) for exactly what was inspected and what remains unverified.
+
+</details>
 
 ## Status
 

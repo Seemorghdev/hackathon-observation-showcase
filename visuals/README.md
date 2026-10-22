@@ -1,13 +1,16 @@
 # Genuine screened visuals
 
-These images document static documentation and an existing screened text excerpt. **None is a screenshot of the original application running.**
+These images document static documentation, an existing screened text excerpt and a disclosed source-shell inspection of the later console. **None is a screenshot of the original application running.**
 
 | Image | Subject | Meaning |
 | --- | --- | --- |
 | `presentation-excerpt-desktop.png` | Existing screened excerpt in a desktop browser | Editorial wrapper; not the original seven-section presentation |
 | `presentation-excerpt-mobile.png` | The same excerpt at a narrow viewport | Responsive documentation rendering only |
 | `portfolio-documentation-desktop.png` | Companion project page in the local portfolio | Documentation screenshot; not application-runtime evidence |
+| `operator-console-static-desktop.png` | Retained later-console layout rendered with scripts removed and controls disabled | Source-shell inspection with disclosure labels; no runtime data, fixtures or service execution |
 
-All captures were made on 22 October 2026. Observed viewport dimensions are recorded in `capture-record.json`. No operational diagrams, model outputs, location data or original application consoles were added.
+All captures were made on 22 October 2026. Observed viewport dimensions are recorded in `capture-record.json`. No operational diagrams, model outputs, location data or original application-runtime captures were added.
+
+The later-console capture preserves the existing HTML/CSS layout, but replaces LIVE/frame-status wording and adds an explanatory banner/watermark. It is not an unmodified historical screenshot. Blank panes are intentional and must not be filled with invented results or cropped to remove the disclosure. The operational source and preview HTML are not distributed. Read the [interface review](../docs/interface-review.md) for category boundaries and reuse limits.
 
 The HTML source for the excerpt is [available here](../assets/presentation-excerpt.html). The owner approved these screened documentary visuals for public use. The historical capture includes private-review wording; that is the capture context, not a claim that the original application ran or was released.
