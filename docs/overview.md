@@ -1,5 +1,7 @@
 # The project
 
+> Historical record of the 22 October review. The later application was separately exercised and captured on 24 October; see [current acceptance](runtime-acceptance-2026-10-24.md) and [runtime captures](../README.md#see-the-working-interface).
+
 ## Problem
 
 Similarly named fields can represent different things. Timestamp formats, units and locally assigned identifiers need their source context before they can be interpreted together.

@@ -14,3 +14,7 @@ All captures were made on 22 October 2026. Observed viewport dimensions are reco
 The later-console capture preserves the existing HTML/CSS layout, but replaces LIVE/frame-status wording and adds an explanatory banner/watermark. It is not an unmodified historical screenshot. Blank panes are intentional and must not be filled with invented results or cropped to remove the disclosure. The operational source and preview HTML are not distributed. Read the [interface review](../docs/interface-review.md) for category boundaries and reuse limits.
 
 The HTML source for the excerpt is [available here](../assets/presentation-excerpt.html). The owner approved these screened documentary visuals for public use. The historical capture includes private-review wording; that is the capture context, not a claim that the original application ran or was released.
+
+## Actual later runtime — 24 October 2026
+
+The new `runtime-*-2026-10-24.jpg`, `copilot-*-2026-10-24.jpg`, and MP4 are genuine browser captures of the running synthetic application. They supersede the empty shell as the primary preview; they do not change the historical labels of the older images. See [runtime capture record](runtime-capture-record.json) for dimensions, sampling, transformations and source identity, and [acceptance](../docs/runtime-acceptance-2026-10-24.md) for precise works/fails/not-tested scope.

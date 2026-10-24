@@ -1,5 +1,7 @@
 # Historical testing, without an invented benchmark
 
+> Historical record of the 22 October review. The later application was separately exercised and captured on 24 October; see [current acceptance](runtime-acceptance-2026-10-24.md) and [runtime captures](../README.md#see-the-working-interface).
+
 The retained documents describe supplied challenge tests, regression tests and scenario time steps. Later packaged records also declare suite outcomes. These are different versions and units; they cannot be added into one total or presented as a single freshly reproduced run.
 
 No original application test or new experiment was run to prepare this showcase. File-integrity checks and documentation-layout checks only validate this documentation package.
