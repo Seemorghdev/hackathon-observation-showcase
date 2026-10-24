@@ -19,7 +19,7 @@ files = {str(p.relative_to(root)) for p in root.rglob("*")
 assert files == set(entries), "Inventory differs from package files"
 for name, digest in entries.items():
     path = root / name
-    assert path.suffix in {".md", ".html", ".png", ".json", ".py"}, name
+    assert path.suffix in {".md", ".html", ".png", ".jpg", ".mp4", ".json", ".py"}, name
     assert hashlib.sha256(path.read_bytes()).hexdigest() == digest, name
     if path.suffix in {".md", ".html", ".json"}:
         text = path.read_text()
@@ -46,3 +46,13 @@ assert shell["applicationScripts"] == 0 and shell["externalResourceElements"] ==
 assert shell["allControlsDisabled"] and not shell["fixturesLoaded"] and not shell["servicesStarted"]
 assert (root / "visuals/operator-console-static-desktop.png").exists()
 print(f"PASS: {len(entries)} package files; checksums, links and documentation boundaries")
+
+runtime = json.loads((root / "visuals/runtime-capture-record.json").read_text())
+assert runtime["synthetic_only"] and not runtime["field_evidence_captured"]
+assert runtime["recording"]["first_t"] == 0 and runtime["recording"]["last_t"] == 90
+assert len(runtime["timeline_samples"]) == runtime["recording"]["samples"]
+for capture in runtime["captures"]:
+    assert (root / "visuals" / capture["file"]).exists()
+assert (root / "visuals" / runtime["recording"]["file"]).exists()
+assert "not verified judgment" in (root / "docs/runtime-architecture.md").read_text()
+print("PASS: synthetic runtime capture inventory and evidence boundary")

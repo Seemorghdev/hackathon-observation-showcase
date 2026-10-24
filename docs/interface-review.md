@@ -1,5 +1,7 @@
 # The interface: what exists and what this capture shows
 
+> Historical record of the 22 October review. The later application was separately exercised and captured on 24 October; see [current acceptance](runtime-acceptance-2026-10-24.md) and [runtime captures](../README.md#see-the-working-interface).
+
 Reviewed 22 October 2026. This is a documentary inspection, not an application launch or a new scenario test.
 
 ## Three different artifacts

@@ -1,0 +1,372 @@
+{
+  "date": "2026-10-24",
+  "subject": "Actual later application with synthetic FUSE data; not original-event or field-runtime evidence",
+  "source_base_commit": "7ab935710efc42bd8d529d6e70a200c18c3beea1",
+  "finalized_acceptance_fix_commit": "6ef74a019e7a0569f4d7d0c4b435a74ef2411b94",
+  "source_note": "Captured from the private working tree during acceptance. Desktop timeline recording preceded the final question-pending-state and mobile-spacing fixes; desktop playback code was unchanged by those final fixes.",
+  "setup": "Same-origin local iframe around the actual unmodified application entry point, with fixed CSS dimensions; browser viewport override was unreliable. The temporary wrapper is not a public runtime.",
+  "desktop_css_viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "mobile_css_viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "export_note": "Browser exports included empty canvas margins and scaled application pixels. Cropped only those empty margins: desktop top-left 1028x714, mobile top-left 278x602. Video scales the cropped desktop pixels to 1440x1000. No application text, track geometry or model result was painted or composited into a screenshot.",
+  "model": "qwen3:4b",
+  "synthetic_only": true,
+  "field_evidence_captured": false,
+  "physical_mobile_tested": false,
+  "recording": {
+    "file": "synthetic-timeline-walkthrough-2026-10-24.mp4",
+    "samples": 52,
+    "sampling": "approximately one actual browser screenshot per second; no positional interpolation",
+    "format": "silent H.264 MP4, 1 fps",
+    "observed_elapsed_ms_to_last_sample": 51389,
+    "first_t": 0,
+    "last_t": 90,
+    "encoded_duration_seconds": 52,
+    "notes": "52 samples encode as 52 one-second frames. Actual last-sample time was about 51.4 seconds. This is not smooth-playback proof or exact runtime timing."
+  },
+  "captures": [
+    {
+      "file": "runtime-desktop-2026-10-24.jpg",
+      "width": 1028,
+      "height": 714,
+      "state": "t=74 FT-001 hostile; LOCAL MODEL DRAFT"
+    },
+    {
+      "file": "copilot-desktop-2026-10-24.jpg",
+      "width": 1028,
+      "height": 714,
+      "state": "t=74 FT-001 hostile; approved crossing question; LOCAL MODEL DRAFT"
+    },
+    {
+      "file": "runtime-mobile-2026-10-24.jpg",
+      "width": 278,
+      "height": 602,
+      "state": "t=74 map and full timeline, collapsed selected-track sheet"
+    },
+    {
+      "file": "copilot-mobile-2026-10-24.jpg",
+      "width": 278,
+      "height": 602,
+      "state": "t=74 FT-001 hostile; LOCAL MODEL DRAFT and approved question"
+    }
+  ],
+  "timeline_samples": [
+    {
+      "i": 0,
+      "elapsed_ms": 280,
+      "t": "t=0",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 1,
+      "elapsed_ms": 1282,
+      "t": "t=2",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 2,
+      "elapsed_ms": 2284,
+      "t": "t=3",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 3,
+      "elapsed_ms": 3286,
+      "t": "t=5",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 4,
+      "elapsed_ms": 4289,
+      "t": "t=7",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 5,
+      "elapsed_ms": 5292,
+      "t": "t=9",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 6,
+      "elapsed_ms": 6293,
+      "t": "t=11",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 7,
+      "elapsed_ms": 7295,
+      "t": "t=12",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 8,
+      "elapsed_ms": 8297,
+      "t": "t=14",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 9,
+      "elapsed_ms": 9299,
+      "t": "t=16",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 10,
+      "elapsed_ms": 10302,
+      "t": "t=18",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 11,
+      "elapsed_ms": 11305,
+      "t": "t=19",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 12,
+      "elapsed_ms": 12307,
+      "t": "t=21",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 13,
+      "elapsed_ms": 13309,
+      "t": "t=23",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 14,
+      "elapsed_ms": 14309,
+      "t": "t=25",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 15,
+      "elapsed_ms": 15311,
+      "t": "t=26",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 16,
+      "elapsed_ms": 16313,
+      "t": "t=28",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 17,
+      "elapsed_ms": 17315,
+      "t": "t=30",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 18,
+      "elapsed_ms": 18317,
+      "t": "t=32",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 19,
+      "elapsed_ms": 19319,
+      "t": "t=34",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 20,
+      "elapsed_ms": 20320,
+      "t": "t=35",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 21,
+      "elapsed_ms": 21322,
+      "t": "t=37",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 22,
+      "elapsed_ms": 22325,
+      "t": "t=39",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 23,
+      "elapsed_ms": 23327,
+      "t": "t=41",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 24,
+      "elapsed_ms": 24330,
+      "t": "t=42",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 25,
+      "elapsed_ms": 25333,
+      "t": "t=44",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 26,
+      "elapsed_ms": 26336,
+      "t": "t=46",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 27,
+      "elapsed_ms": 27339,
+      "t": "t=48",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 28,
+      "elapsed_ms": 28342,
+      "t": "t=49",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 29,
+      "elapsed_ms": 29345,
+      "t": "t=51",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 30,
+      "elapsed_ms": 30348,
+      "t": "t=53",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 31,
+      "elapsed_ms": 31350,
+      "t": "t=55",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 32,
+      "elapsed_ms": 32352,
+      "t": "t=57",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 33,
+      "elapsed_ms": 33354,
+      "t": "t=58",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 34,
+      "elapsed_ms": 34356,
+      "t": "t=60",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 35,
+      "elapsed_ms": 35358,
+      "t": "t=62",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 36,
+      "elapsed_ms": 36360,
+      "t": "t=64",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 37,
+      "elapsed_ms": 37362,
+      "t": "t=65",
+      "watch": "LOCAL MODEL DRAFT"
+    },
+    {
+      "i": 38,
+      "elapsed_ms": 38364,
+      "t": "t=67",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 39,
+      "elapsed_ms": 39366,
+      "t": "t=69",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 40,
+      "elapsed_ms": 40368,
+      "t": "t=71",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 41,
+      "elapsed_ms": 41370,
+      "t": "t=72",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 42,
+      "elapsed_ms": 42372,
+      "t": "t=74",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 43,
+      "elapsed_ms": 43374,
+      "t": "t=76",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 44,
+      "elapsed_ms": 44376,
+      "t": "t=78",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 45,
+      "elapsed_ms": 45376,
+      "t": "t=80",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 46,
+      "elapsed_ms": 46378,
+      "t": "t=81",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 47,
+      "elapsed_ms": 47380,
+      "t": "t=83",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 48,
+      "elapsed_ms": 48383,
+      "t": "t=85",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 49,
+      "elapsed_ms": 49385,
+      "t": "t=87",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 50,
+      "elapsed_ms": 50387,
+      "t": "t=88",
+      "watch": "LOCAL MODEL CHECKING"
+    },
+    {
+      "i": 51,
+      "elapsed_ms": 51389,
+      "t": "t=90",
+      "watch": "LOCAL MODEL CHECKING"
+    }
+  ]
+}

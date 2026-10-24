@@ -1,5 +1,7 @@
 # Technical artifact inventory
 
+> Historical record of the 22 October review. The later application was separately exercised and captured on 24 October; see [current acceptance](runtime-acceptance-2026-10-24.md) and [runtime captures](../README.md#see-the-working-interface).
+
 This is a reference to retained work, not an operational architecture or implementation guide.
 
 | Artifact | Status | What a reviewer may infer |
