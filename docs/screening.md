@@ -13,7 +13,7 @@ The original operational source, full HTML presentation, raw historical test fil
 
 ## Excluded information
 
-Credentials, local filesystem coordinates, private research/register links, precise locations, scenario geometry, operational algorithms and parameters, datasets and model weights are outside this package. This repository is not a data room for the original application.
+Credentials, local filesystem paths, private research/register links, precise field locations, raw scenario definitions, operational algorithms, private parameters, datasets and model weights are outside this package. The approved later-runtime captures show synthetic display geometry over a public Munich reference map. This repository is not a data room for the original application.
 
 ## Visual interpretation
 
