@@ -19,7 +19,7 @@ files = {str(p.relative_to(root)) for p in root.rglob("*")
 assert files == set(entries), "Inventory differs from package files"
 for name, digest in entries.items():
     path = root / name
-    assert path.suffix in {".md", ".html", ".png", ".jpg", ".mp4", ".json", ".py"}, name
+    assert name == "LICENSE" or path.suffix in {".md", ".html", ".png", ".jpg", ".mp4", ".json", ".py"}, name
     assert hashlib.sha256(path.read_bytes()).hexdigest() == digest, name
     if path.suffix in {".md", ".html", ".json"}:
         text = path.read_text()
