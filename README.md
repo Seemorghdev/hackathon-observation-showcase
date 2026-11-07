@@ -39,7 +39,7 @@ These are genuine browser captures of the later application, recorded on 24 Octo
 - Playback waits for each fetched frame; positions are not interpolated. The recorded run took about 51 seconds to reach t=90. Playback currently loops, and is stopped manually in the review.
 - AI Watch matches a catalogued scenario before requesting Qwen 3 4B. The model selects approved explanation slots; catalog templates and fetched-frame values supply the visible text. `LOCAL MODEL DRAFT` identifies accepted slot selection, not verified judgment.
 - Scenario Copilot uses the same bounded packets and button-only approved questions. Track and scenario identity constrain every answer. It cannot recommend or execute a response.
-- RF is bearing-only. Synthetic demonstrations and retained field observations remain separate.
+- RF is drawn as a bearing ray; the synthetic engine also uses a coarse signal-strength range estimate. Neither is a field measurement. Synthetic demonstrations and retained field observations remain separate.
 
 Read the [acceptance note: works / fails / not tested](docs/runtime-acceptance-2026-10-24.md), [architecture](docs/runtime-architecture.md), and [capture provenance](visuals/runtime-capture-record.json).
 
